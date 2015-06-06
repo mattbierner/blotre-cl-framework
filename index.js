@@ -1,6 +1,7 @@
 var Blotre = require('blotre');
-var rp = require('request-promise');
+var extend = require('extend');
 var fs = require('fs');
+var Promise = require('bluebird');
 
 /**
  * Prompt the user to redeem an authorization code.
@@ -63,10 +64,10 @@ module.exports = function(clientInfo, userConf) {
         console.log("Found existing client");
         return Promise.resolve(existingClient);
     } else {
-        Blotre.createDisposable(clientInfo, config)
+        return Blotre.createDisposable(clientInfo, config)
             .then(function(client) {
                 askAuth(client);
-                return tryRedeem(client, start);
+                return tryRedeem(client);
             });
     }
 };

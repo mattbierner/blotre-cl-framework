@@ -17,9 +17,8 @@
     "main": "index.js",
     
     "dependencies": {
-        "request": "2.55.x",
-        "request-promise": "0.4.2",
         "extend": "2.0.x",
-        "blotre": ">=0.1.0"
+        "blotre": ">=0.1.0",
+        "bluebird": "2.9.x"
     }
 }
