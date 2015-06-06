@@ -1,0 +1,25 @@
+{
+    "name": "blotre-cl-framework",
+    "version": "0.0.0",
+    "description": "Basic Blot're disposable client command line application framework.",
+    "author": "Matt Bierner",
+    "license": "MIT",
+    "homepage": "https://blot.re",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mattbierner/blotre-cl-framework.git"
+    },
+    "keywords": [
+        "Blot're",
+        "Blotre",
+        "client"],
+    
+    "main": "index.js",
+    
+    "dependencies": {
+        "request": "2.55.x",
+        "request-promise": "0.4.2",
+        "extend": "2.0.x",
+        "blotre": ">=0.1.0"
+    }
+}
