@@ -1,6 +1,6 @@
 {
     "name": "blotre-cl-framework",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "Basic Blot're disposable client command line application framework.",
     "author": "Matt Bierner",
     "license": "MIT",
@@ -18,7 +18,7 @@
     
     "dependencies": {
         "extend": "2.0.x",
-        "blotre": ">=0.1.0",
+        "blotre": ">=0.2.0",
         "bluebird": "2.9.x"
     }
 }

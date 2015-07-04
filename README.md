@@ -26,7 +26,7 @@ BlotreCl({
     "name": "Toa*",
     "blurb": "The Pintrest of toast." })
     .then(function(client) {
-        // Now we have a fully authorizedclient app and can 
+        // Now we have a fully authorized client app and can 
         // make Blot're.js calls
         return client.getStream(client.creds.user.rootStream);
     })
